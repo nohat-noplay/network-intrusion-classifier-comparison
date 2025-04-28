@@ -5,36 +5,36 @@ This project compares multiple machine learning classifiers to predict and detec
 
 ## Project Overview
 This project aims to:
-    - Preprocess and clean network traffic data
-    - Engineer features for better model performance
-    - Train and evaluate multiple machine learning classifiers
-    - Compare classifier performance based on accuracy, F1 score, and precision
-    - Export predictions and model evaluation outputs for analysis
+- Preprocess and clean network traffic data
+- Engineer features for better model performance
+- Train and evaluate multiple machine learning classifiers
+- Compare classifier performance based on accuracy, F1 score, and precision
+- Export predictions and model evaluation outputs for analysis
 
 ## Key Technical Highlights
-    - Multiple classifiers implemented: K-Nearest Neighbors, Naive Bayes, Decision Trees, Random Forest, Gradient Boosting
-    - Hyperparameter tuning with GridSearchCV and cross-validation
-    - Handling of imbalanced data using SMOTE oversampling
-    - Feature engineering including binarisation, one-hot encoding, and edit distance calculations
-    - Automated export of confusion matrices and top predictions
+- Multiple classifiers implemented: K-Nearest Neighbors, Naive Bayes, Decision Trees, Random Forest, Gradient Boosting
+- Hyperparameter tuning with GridSearchCV and cross-validation
+- Handling of imbalanced data using SMOTE oversampling
+- Feature engineering including binarisation, one-hot encoding, and edit distance calculations
+- Automated export of confusion matrices and top predictions
 
 ## Features
 ### Data Preprocessing
-    - Clean and prepare training and test datasets
-    - Feature binarisation and boolean transformation
-    - One-hot encoding of categorical variables
-    - Feature engineering (edit distance, means, digit counting)
+- Clean and prepare training and test datasets
+- Feature binarisation and boolean transformation
+- One-hot encoding of categorical variables
+- Feature engineering (edit distance, means, digit counting)
 
 ### Classification Models
-    - Train classifiers using optimised parameters
-    - Hyperparameter tuning option for each model
-    - Cross-validation for performance validation
-    - Model evaluation via confusion matrices, accuracy, F1, and precision metrics
+- Train classifiers using optimised parameters
+- Hyperparameter tuning option for each model
+- Cross-validation for performance validation
+- Model evaluation via confusion matrices, accuracy, F1, and precision metrics
 
 ### Outputs
-    - Processed datasets exported in ARFF and CSV formats
-    - Top two prediction sets for each test dataset
-    - Saved confusion matrices for visual evaluation
+- Processed datasets exported in ARFF and CSV formats
+- Top two prediction sets for each test dataset
+- Saved confusion matrices for visual evaluation
 
 ## Dependencies 
 arff, -U pandas, numpy, matplotlib, seaborn, sklearn.model_selection, sklearn.over_sampling, sklearn.under_sampling, sklearn.neighbors, sklearn.naive_bayes, sklearn.tree, sklearn.ensemble, sklearn.metrics, sklearn.inspection,  imbalanced-learn, openpyxl, python-Levenshtein, warnings, os
@@ -47,9 +47,9 @@ arff, -U pandas, numpy, matplotlib, seaborn, sklearn.model_selection, sklearn.ov
 2. Open and run `run.py`
 
 ## Additional Features
-    - Option to toggle hyperparameter tuning on or off for faster execution
-    - Parallel processing enabled for GridSearchCV and cross-validation (adjustable n_jobs setting)
-    - Attack categories encoded for clean CSV prediction exports
+- Option to toggle hyperparameter tuning on or off for faster execution
+- Parallel processing enabled for GridSearchCV and cross-validation (adjustable n_jobs setting)
+    Attack categories encoded for clean CSV prediction exports
         attack_cat_encoding = {
         "Analysis": 1,
         "Backdoor": 2,
