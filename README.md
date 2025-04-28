@@ -49,7 +49,7 @@ arff, -U pandas, numpy, matplotlib, seaborn, sklearn.model_selection, sklearn.ov
 ## Additional Features
 - Option to toggle hyperparameter tuning on or off for faster execution
 - Parallel processing enabled for GridSearchCV and cross-validation (adjustable n_jobs setting)
-    Attack categories encoded for clean CSV prediction exports
+- Attack categories encoded for clean CSV prediction exports:
         attack_cat_encoding = {
         "Analysis": 1,
         "Backdoor": 2,
@@ -61,6 +61,7 @@ arff, -U pandas, numpy, matplotlib, seaborn, sklearn.model_selection, sklearn.ov
         "Shellcode": 8,
         "Worms": 9
         }
+
 
 ## Important Notes for the User: 
 Parallel Processing Warning!
