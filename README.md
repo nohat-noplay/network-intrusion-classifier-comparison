@@ -40,7 +40,8 @@ This project aims to:
 arff, -U pandas, numpy, matplotlib, seaborn, sklearn.model_selection, sklearn.over_sampling, sklearn.under_sampling, sklearn.neighbors, sklearn.naive_bayes, sklearn.tree, sklearn.ensemble, sklearn.metrics, sklearn.inspection,  imbalanced-learn, openpyxl, python-Levenshtein, warnings, os
 
 ## How to Run
-1. Ensure all required files are in your working directory:
+1. `pip install -r requirements.txt` 
+2. Ensure all required files are in your working directory:
     - `run.py`
     - Supporting file: `Runpy_Functions.py`
     - Datasets: `Assignment-2024-training-data-set.xlsx`, `Test-Data-Set-1-2024.xlsx`, `Test-Data-Set-2-2024.xlsx`
